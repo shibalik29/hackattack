@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MTH174 TESTS - Button Page</title>
+	<style>
+		/* Add some basic styling to make the buttons look decent */
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #141619; /* Dark background */
+			color: #B3B4BD; /* White text */
+			margin: 0; /* Remove default margin */
+			height: 100vh; /* Make the body take up the full height of the viewport */
+			display: flex; /* Use flexbox to center the container */
+			align-items: center; /* Center the container vertically */
+			justify-content: center; /* Center the container horizontally */
+		}
+		.heading {
+			font-size: 36px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.button-container {
+			width: 80%; /* Take up 80% of the page width */
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.button {
+			width: 45%;
+			margin: 20px;
+			padding: 20px 40px;
+			border: none;
+			border-radius: 10px;
+			cursor: pointer;
+			background-color: #0A21C0; /* Green button */
+			color: #fff;
+		}
+		.button:hover {
+			background-color: #050A44;
+		}
+	</style>
+</head>
+<body>
+	<div class="button-container">
+		<center><h1 class="heading">MATHEMATICS TESTS</h1><br><br>
+		<div style="width: 50%; float: left;">
+			<a href="CA1_174.html"><button class="button">CA 1</button></a>
+			<a href="CA3_174.html"><button class="button">CA 3</button></a>
+			<a href="MTE_174.html"><button class="button">MTE</button></a>
+		</div>
+		<div style="width: 50%; float: right;">
+			<a href="CA2_174.html"><button class="button">CA 2</button></a>
+			<a href="CA4_174.html"><button class="button">CA 4</button></a>
+			<a href="ETE_174.html"><button class="button">ETE</button></a>
+		</div>
+	</div>
+</body>
+</html>
